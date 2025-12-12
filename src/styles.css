@@ -289,7 +289,6 @@ button {
   overflow: hidden;
   border: 1px solid rgba(164,196,189,0.32);
   background: radial-gradient(circle at 10% 0%, rgba(77,195,186,0.35), rgba(3,6,9,0.99));
-};
 }
 
 .hero-orbit-img {
@@ -795,15 +794,6 @@ body::before {
   backdrop-filter: blur(5px);
   pointer-events: none;
   z-index: -1;
-}
-
-
-
-
-}
-
-
-
 }
 
 /* iOS Safari viewport height correction */
