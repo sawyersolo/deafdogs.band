@@ -55,7 +55,7 @@ export default function App() {
       />
 
       <Route
-        path="/epk"
+        path="/press"
         element={
           <RouteShell>
             <Press />

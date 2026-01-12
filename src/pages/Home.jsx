@@ -36,10 +36,10 @@ export default function Home() {
               and the moment you realise you&apos;re not going back.
             </p>
             <div className="hero-cta-row">
-              <button className="btn-bright" onClick={() => navigate('/music#music')}>
+              <button className="btn-bright" onClick={() => navigate('/music')}>
                 {theme === 'colossus' ? '▶ Listen to Colossus' : '▶ Listen to Stringbreaker'}
               </button>
-              <button className="btn-soft" onClick={() => navigate('/tour')}>
+              <button className="btn-soft" onClick={() => navigate('/photos')}>
                 Live shows &amp; sessions
               </button>
             </div>
@@ -96,25 +96,26 @@ export default function Home() {
             </button>
           </div>
           <div className="surface">
-            <div className="section-heading">Sessions &amp; shows</div>
-            <p className="section-sub">
-              From studio sessions to club stages around Vancouver, Deaf Dogs keep the
-              guitars tangled and the vocals right on the edge.
-            </p>
-            <button className="btn-soft" onClick={() => navigate('/tour')}>
-              View tour map
-            </button>
-          </div>
-          <div className="surface">
             <div className="section-heading">Merch as artifact</div>
             <p className="section-sub">
               Hoodies, shirts and prints built around the Stringbreaker visual world.
               Limited runs, meant to feel like you grabbed them off the stage.
             </p>
-            <button className="btn-soft" onClick={() => navigate('/#merch')}>
+            <button className="btn-soft" onClick={() => navigate('/merch')}>
               Open merch store
             </button>
+          </div>          
+          <div className="surface">
+            <div className="section-heading">Sessions &amp; shows</div>
+            <p className="section-sub">
+              From studio sessions to club stages around Vancouver, Deaf Dogs keep the
+              guitars tangled and the vocals right on the edge. Catch them live. 
+            </p>
+            <button className="btn-soft" onClick={() => navigate('/photos')}>
+              View photos
+            </button>
           </div>
+
         </div>
       </section>
     </>
