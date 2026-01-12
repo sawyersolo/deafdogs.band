@@ -971,13 +971,23 @@ html {
 .bg-video {
   position: fixed;
   inset: 0;
+
   width: 100vw;
-  height: 100vh;
-  object-fit: cover;
+  height: 100svh;        /* mobile-safe viewport height */
+  min-height: 100vh;    /* fallback for older browsers */
+
+  object-fit: cover;    /* key: fill screen, crop if needed */
+  object-position: center top;
+
   z-index: 1;
   pointer-events: none;
 }
-
+html, body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
 /* Darken / stylize the video */
 .bg-video-overlay {
   position: fixed;
