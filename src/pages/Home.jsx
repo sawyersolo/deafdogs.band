@@ -106,10 +106,10 @@ export default function Home() {
             </button>
           </div>          
           <div className="surface">
-            <div className="section-heading">Sessions &amp; shows</div>
+            <div className="section-heading">Show Gallery</div>
             <p className="section-sub">
               From studio sessions to club stages around Vancouver, Deaf Dogs keep the
-              guitars tangled and the vocals right on the edge. Catch them live. 
+              guitars tangled and the vocals right on the edge. Check out their photos! 
             </p>
             <button className="btn-soft" onClick={() => navigate('/photos')}>
               View photos

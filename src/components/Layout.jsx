@@ -69,7 +69,6 @@ export default function Layout({ children }) {
           <Link to="/" onClick={() => setMobileOpen(false)}>Home</Link>
           <Link to="/photos" onClick={() => setMobileOpen(false)}>Photos</Link>
           <Link to="/music" onClick={() => setMobileOpen(false)}>Music</Link>
-          <Link to="/tour" onClick={() => setMobileOpen(false)}>Tour</Link>
           <Link to="/merch" onClick={() => setMobileOpen(false)}>Merch</Link>
           <Link to="/press" onClick={() => setMobileOpen(false)}>Press</Link>
         </div>
