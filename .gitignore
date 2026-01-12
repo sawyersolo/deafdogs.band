@@ -15,3 +15,6 @@ node_modules/.vite/
 
 #public/gallery.jsx
 public/gallery.json
+
+#ignore download files
+EPK_files/*.download
