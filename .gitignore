@@ -9,3 +9,6 @@ node_modules/.vite/
 
 # misc
 .DS_Store
+
+#environment variables
+.env
