@@ -5,6 +5,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react'
 
 const SDK_URL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js'
 
+
 function loadShopifySdk() {
   return new Promise((resolve, reject) => {
     if (window.ShopifyBuy && window.ShopifyBuy.UI) return resolve()
@@ -116,7 +117,7 @@ export default function ShopifyMerchEmbed({ className = '' }) {
                 color: '#0f1412',
               },
               quantityInput: {
-                'background-color': 'rgba(15, 20, 18, 0.8)',
+                'background-color': 'rgba(20, 15, 20, 0.8)',
                 color: '#e5e7eb',
                 border: '1px solid rgba(129,230,221,0.25)',
                 'border-radius': '12px',
@@ -200,9 +201,9 @@ export default function ShopifyMerchEmbed({ className = '' }) {
               title: { color: '#e5e7eb' },
               header: { color: '#e5e7eb' },
               lineItems: { color: '#e5e7eb' },
-              subtotalText: { color: '#81e6dd' },
-              subtotal: { color: '#81e6dd' },
-              notice: { color: 'rgba(229,231,235,0.75)' },
+              subtotalText: { color: '#080808' },
+              subtotal: { color: '#202019' },
+              notice: { color: 'rgba(37, 48, 68, 0.75)' },
               button: {
                 'font-family': 'Roboto, system-ui, -apple-system, Segoe UI, sans-serif',
                 'font-weight': '800',

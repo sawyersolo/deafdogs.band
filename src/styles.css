@@ -988,6 +988,12 @@ html, body {
   margin: 0;
   overflow-x: hidden;
 }
+/* Shopify buy button quantity text color */
+
+.shopify-buy__quantity {
+    color: #f3f2e6; /* Sets the text color */
+}
+
 /* Darken / stylize the video */
 .bg-video-overlay {
   position: fixed;
