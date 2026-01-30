@@ -56,6 +56,6 @@ async function main() {
 }
 
 main().catch((err) => {
-  console.error(err);
+  console.error("Cloudinary search failed:", err?.message || err);
   process.exitCode = 1;
 });
